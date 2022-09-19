@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS - Basics</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .post-int-style, .article4 {
+        display: flex;
+        background-color: blueviolet;
+        width: 200px;
+        height: 300px;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+   
+    <section style="display: flex; gap: 10px">
+      <article
+        style="
+          display: flex;
+          background-color: blueviolet;
+          width: 200px;
+          height: 300px;
+          justify-content: center;
+          align-items: center;
+        "
+        class="posts article1"
+      >
+        1
+      </article>
+      <article class="post-int-style article2">2</article>
+      <article class="posts-ext-style article3 xyz">3</article>
+      <article class="posts article4">4</article>
+      <article
+        style="
+          display: flex;
+          background-color: blueviolet;
+          width: 200px;
+          height: 300px;
+          justify-content: center;
+          align-items: center;
+        "
+        class="posts article5"
+      >
+        5
+      </article>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+.posts-ext-style {
+  display: flex;
+  background-color: tomato;
+  width: 200px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+}
+
+.article3 {
+    border-radius: 20px;
+}
+
+.xyz {
+    border: 2px solid 
+}
